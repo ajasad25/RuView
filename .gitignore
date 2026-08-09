@@ -226,5 +226,9 @@ v1/src/sensing/mac_wifi
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
-config.bat
 node_modules
+
+# local env files (restored after security incident)
+.env
+.env.*
+!.env.example
